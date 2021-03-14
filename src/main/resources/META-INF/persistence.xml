@@ -5,6 +5,10 @@
     <persistence-unit name="cz.rado.jpa" transaction-type="RESOURCE_LOCAL">
         <class>cz.rado.model.Message</class>
         <class>cz.rado.model.Osoba</class>
+        <class>cz.rado.model.Telefon</class>
+        <class>cz.rado.model.SkupinaKontaktu</class>
+        <class>cz.rado.model.Adresa</class>
+
 
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
@@ -19,7 +23,7 @@
 
             <property name = "hibernate.show_sql" value = "true" />
             <property name = "hibernate.format_sql" value = "true" />
-            <!--<property name = "hibernate.hbm2ddl.auto" value = "update" />-->
+           <!---><property name = "hibernate.hbm2ddl.auto" value = "update" />-->
 
         </properties>
 
